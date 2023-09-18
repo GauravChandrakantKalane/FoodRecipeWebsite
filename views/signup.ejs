@@ -1,0 +1,45 @@
+<div class="col-6 mx-auto">
+  <h1 class="mb-4">SignUp</h1>
+  <form action="/signup" enctype="multipart/form-data" method="post">
+    <div>
+      <label for="name" class="form-label"> Name </label>
+      <input type="text" class="form-control" name="name" id="name" />
+    </div>
+    <div>
+      <label for="email" class="form-label"> Email </label>
+      <input type="email" class="form-control" name="email" id="email" />
+    </div>
+    <div>
+      <label for="image" class="form-label"> Image </label>
+      <input
+        type="file"
+        class="form-control"
+        name="image"
+        id="image"
+        accept="image/*"
+      />
+    </div>
+    <div>
+      <label for="password" class="form-label"> Password </label>
+      <input
+        type="password"
+        class="form-control"
+        name="password"
+        id="password"
+      />
+    </div>
+    <div>
+      <label for="confirmPassword" class="form-label"> Confirm Password </label>
+      <input
+        type="password"
+        class="form-control"
+        name="confirmPassword"
+        id="confirmPassword"
+      />
+    </div>
+
+    <div>
+      <button type="submit" class="btn mt-4 btn-outline-primary">Submit</button>
+    </div>
+  </form>
+</div>
